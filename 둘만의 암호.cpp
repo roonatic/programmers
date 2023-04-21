@@ -52,12 +52,3 @@ string solution(string s, string skip, int index) {
 	}
 	return answer;
 }
-
-int main()
-{
-	string s = "z";
-	string skip = "abcdefghij";
-	int index = 20;
-
-	solution(s, skip, index);
-}
